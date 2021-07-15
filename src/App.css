@@ -423,3 +423,30 @@ hr{
     top: 89%;
   }
 }
+.contact{
+  background-color: black;
+  text-align: center;
+  margin-top: -5%;
+ height: 300px;
+}
+.contact h2{
+  color: #FFD700;
+  margin-bottom: 4%;
+}
+.contact p{
+  color: #FFD700;
+  margin-bottom: 2%;
+}
+.divider{
+  width: 99.5%;
+  color: #FFD700;
+  height: 0px;
+}
+.icons button{
+  color: #FFD700;
+  background-color: transparent;
+  border: transparent;
+  font-size: 30px;
+  margin-bottom: 5%;
+  
+}
