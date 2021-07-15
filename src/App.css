@@ -1,0 +1,425 @@
+/* .App{
+  background-color:black;
+} */
+.home{
+  background-image: url("./images/wall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+   height:650px;
+}
+
+.nav-list{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  display:flex;
+  margin-left: 52%;
+
+ }
+.nav-list li{
+  color:#FFD700;
+  padding:20px 50px;
+}
+@media (min-width:600px) and (max-width:890px){
+  .nav-list{
+    margin-left:30%;
+  }
+  .nav-list li{
+    padding:20px 20px;
+    font-size:16px;
+  }
+}
+@media (max-width:500px) {
+  /* .nav-bar{
+    display: none;
+  } */
+  .nav-list{
+    margin-left:2%;
+  }
+  .nav-list li{
+    padding:20px 10px;
+    font-size:16px;
+  }
+  .home{
+   height:650px;
+    margin: 0px 0px;
+  }
+  
+}
+@media (min-width:510px) and (max-width:545px) {
+  .nav-list li{
+    padding:20px 20px;
+    font-size:16px;
+  }
+  .nav-list{
+    margin-left:2%;
+  }
+}
+@media (min-width:900px) and (max-width:1030px){
+  .nav-list li{
+    padding:20px 50px;
+    font-size:16px;
+  }
+  .nav-list{
+    margin-left:40%;
+  }
+}
+#mynav-nav{
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 60px;
+  background-color: #f3e8ac;
+
+}
+.nav-list1 li{
+  color:#FFD700;
+  padding:8px 8px 8px 32px;
+  font-size: 20px;
+
+}
+.nav-list1 p{
+  color:#FFD700;
+  padding:8px 8px 8px 32px;
+  font-size: 20px;
+
+}
+.nav-list1 li:hover{
+  color:#f3e8ac;
+  
+}
+.nav-list1 p:hover{
+  color:#f3e8ac;  
+}
+.nav-list1{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  display:block;  
+ }
+ .closebtn{
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 25px;
+   margin-left: 50px;
+ }
+ @media screen and (max-height:450px){
+   #mynav-bar{padding-top: 15px;}
+   .nav-list1 li{font-size: 18px;}
+   
+ }
+ /* .image{
+   position: absolute;
+   left: 60%;
+   top: 20%;
+ } */
+ .image img{
+   height: 475px;
+   position: absolute;
+   left: 56%;
+   width: 38%;
+   top: 15%;
+ }
+ .intro{
+  color:#FFD700;
+  font-size:30px;
+  margin-top:13%;
+  text-align: center;
+}
+.intro .role{
+  font-size:40px;
+  font-weight:bold;
+}
+hr{
+  width:20%;
+  border:1px solid #FFD700;
+    height:5%;
+    text-align: center;
+}
+@media (min-width:500px) and (max-width:650px){
+  .intro{
+    font-size:16px;
+    margin-top:25%;
+  }
+  .intro .role{
+    font-size:20px;
+    font-weight:bold;
+  }
+  hr{
+    width:30%;
+    border:1px solid #FFD700;
+  }
+}
+
+@media (max-width:500px){
+  .intro{
+    font-size:15px;
+    margin-top:55%;
+  }
+  .intro .role{
+    font-size:20px;
+    font-weight:bold;
+  }
+}
+.bio{
+  height:300px;
+}
+.bio h2{
+  text-align:center;
+  color:#FFD700;
+  margin-top:20px;
+  font-weight: 1000;
+
+}
+.bio p{
+  font-size:18px;
+  margin-left:5%;
+  line-height:160%;
+}
+.bio button{
+  font-size:18px;
+  margin-left:5%;
+  padding:5px;
+  background-color:#FFD700;
+  border:transparent;
+  border-radius:5px;
+}
+.skills{
+  position: absolute;
+  left: 55%;
+  top: 110%;
+}
+.skills li{
+  font-size: 18px;
+}
+.skill{
+ color: #FFD700;
+ padding-left: 17px;
+ font-size: 20px;
+}
+.code{
+  height: 300px;
+  width: 30%;
+  position: absolute;
+  left: 70%;
+  top: 110%;
+}
+@media (max-width:890px){
+  .skills{
+    position: initial;  
+    margin-left: 2%;  
+  }
+  .skill{
+    padding-left: 0px;
+    font-size: 18px;
+    
+   }
+   .skills li{
+    font-size: 16px;
+  }
+  .bio p{
+    font-size:16px;
+    margin-left:5%;
+    line-height:120%;
+  }
+  
+  
+}
+@media (min-width:330px)and (max-width:500px){
+  
+  .code{
+    height: 200px;
+    width: 34%;
+    position: absolute;
+    left: 65%;
+    top: 140%;
+  }
+}
+@media (max-width:310px){
+  .code{
+    height: 185px;
+    width: 35%;
+    position: absolute;
+    left: 63%;
+    top: 167%;
+  }
+  .bio button{
+    font-size:10px;
+    margin-left:5%;
+    padding:5px;
+    background-color:#FFD700;
+    border:transparent;
+    border-radius:5px;
+  }
+}
+@media(width:320px){
+  .code{
+    height: 185px;
+    width: 35%;
+    position: absolute;
+    left: 63%;
+    top: 179%;
+  }
+  .bio button{
+    font-size:10px;
+    margin-left:5%;
+    padding:5px;
+    background-color:#FFD700;
+    border:transparent;
+    border-radius:5px;
+  }
+}
+
+@media(width:375px){
+  .code{
+    height: 185px;
+    width: 35%;
+    position: absolute;
+    left: 63%;
+    top: 129%;
+  }
+  .bio button{
+    font-size:16px;
+    margin-left:5%;
+    padding:5px;
+    background-color:#FFD700;
+    border:transparent;
+    border-radius:5px;
+  }
+}
+.Project{
+  margin-top: 10%;
+  background-color: black;
+  height: 600px;
+}
+.Project h2{
+  text-align:center;
+  color:#FFD700;
+  padding-top: 20px;
+  }
+.projects img{
+  height: 300px;
+   width: 25%;
+ 
+}
+.names{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -17%;
+}
+.names p{
+  color:#FFD700;
+
+
+}
+.projects{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (min-width:300px) and (max-width:430px){
+  .Project{
+    margin-top: 82%;
+    background-color: black;
+    height: 600px;
+  }
+  .Project h2{
+    text-align:center;
+    color:#FFD700;
+    padding-top: 20px;
+    }
+  .projects img{
+    height: 100px;
+     width: 25%;
+   
+  }
+  .names{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -5%;
+    font-size: 12px;
+  }
+ 
+}
+
+@media(width:540px){
+  .Project{
+    margin-top: 48%;
+    background-color: black;
+    height: 600px;
+  }
+  .Project h2{
+    text-align:center;
+    color:#FFD700;
+    padding-top: 20px;
+    }
+  .projects img{
+    height: 200px;
+     width: 25%;
+   
+  }
+  .names{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -5%;
+    font-size: 16px;
+  }
+
+}
+@media (max-width:300px){
+  .Project{
+    margin-top: 125%;
+    background-color: black;
+    height: 600px;
+  }
+  .Project h2{
+    text-align:center;
+    color:#FFD700;
+    padding-top: 20px;
+    }
+  .projects img{
+    height: 100px;
+     width: 25%;
+   
+  }
+  .names{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -5%;
+    font-size: 12px;
+  }
+}
+@media (width:768px){
+  .Project{
+    margin-top: 22%;
+    background-color: black;
+    height: 600px;
+  }
+  .Project h2{
+    text-align:center;
+    color:#FFD700;
+    padding-top: 20px;
+    }
+  .projects img{
+    height: 200px;
+     width: 25%;
+   
+  }
+  .names{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -5%;
+    font-size: 12px;
+  }
+  .code{
+    height: 185px;
+    width: 35%;
+    position: absolute;
+    left: 43%;
+    top: 89%;
+  }
+}
