@@ -1,15 +1,12 @@
 import React from 'react';
-
-
 //components
-import Navbar from './Navbar';
 // import SideNav from './SideNav';
+import Navbar from './Navbar';
 
 export default function Home(){
     return(
-        <div className="home">
-         <Navbar/>
-         
+        <div className="home" id="home">
+            <Navbar/>                
 
         <div className="intro">
         <p> Synthia Hunter Achieng</p>

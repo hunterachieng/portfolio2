@@ -14,11 +14,16 @@
   margin:0;
   display:flex;
   margin-left: 52%;
+ 
 
  }
 .nav-list li{
   color:#FFD700;
   padding:20px 50px;
+  
+}
+.nav-list li:hover{
+  color: #e9dfa5;
 }
 @media (min-width:600px) and (max-width:890px){
   .nav-list{
@@ -172,7 +177,7 @@ hr{
   text-align:center;
   color:#FFD700;
   margin-top:20px;
-  font-weight: 1000;
+  font-weight: 900;
 
 }
 .bio p{
@@ -200,6 +205,7 @@ hr{
  color: #FFD700;
  padding-left: 17px;
  font-size: 20px;
+ font-weight: 300;
 }
 .code{
   height: 300px;

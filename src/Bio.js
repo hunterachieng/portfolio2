@@ -3,7 +3,8 @@ import woman from './images/vector.jpg';
 
 export default function Bio(){
     return(
-        <div className="bio">
+        
+        <div className="bio" id="bio">
         <h2>My Bio</h2>
         <p>Hello, I am Hunter Achieng, a Sofware Engineer  from Nairobi, Kenya.<br/>
 I have always been curious about the world. Why does this work like this?<br/>

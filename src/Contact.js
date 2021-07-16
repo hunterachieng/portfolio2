@@ -3,7 +3,7 @@ import Footer from './Footer';
 
 export default function Contact(){
     return(
-        <div className="contact">
+        <div className="contact" id="contact">
             <hr className="divider"/>
             <h2 >Contact</h2>
             <p>Lets get in touch through:</p>

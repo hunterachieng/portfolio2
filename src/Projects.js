@@ -5,7 +5,7 @@ import madlibs from './images/projects.PNG';
 
 export default function Projects(){
     return(
-        <div className="Project">
+        <div className="Project" id="project">
             <h2>Projects</h2>
         <div className="projects">
             <img src={green} alt = "green"/>
