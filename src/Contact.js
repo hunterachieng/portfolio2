@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Contact(){
     return(
@@ -12,6 +13,10 @@ export default function Contact(){
             <button><i class="fab fa-twitter"></i></button>
             <button><i class="fab fa-linkedin"></i></button>
             <button><i class="far fa-envelope"></i></button>
+            <Link to ="#home" scroll={el=>el.scrollIntoView({behavior:"smooth", block: "start"})}>
+            <button className="top"><i class="fas fa-arrow-circle-up"></i></button>
+            </Link>
+           
             <Footer />
         </div>
         </div>
