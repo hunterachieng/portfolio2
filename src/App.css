@@ -235,14 +235,23 @@ hr{
   
   
 }
-@media (min-width:330px)and (max-width:500px){
+@media (min-width:330px)and (max-width:400px){
   
   .code{
     height: 200px;
     width: 34%;
     position: absolute;
-    left: 65%;
-    top: 140%;
+    left: 64%;
+    top: 157%;
+  }
+}
+@media (width:411px){
+  .code{
+    height: 200px;
+    width: 34%;
+    position: absolute;
+    left: 64%;
+    top: 139%;
   }
 }
 @media (max-width:310px){
@@ -331,7 +340,7 @@ hr{
   .Project{
     margin-top: 82%;
     background-color: black;
-    height: 600px;
+    height: 300px;
   }
   .Project h2{
     text-align:center;
@@ -380,7 +389,7 @@ hr{
   .Project{
     margin-top: 125%;
     background-color: black;
-    height: 600px;
+    height: 300px;
   }
   .Project h2{
     text-align:center;
@@ -396,7 +405,7 @@ hr{
     display: flex;
     justify-content: space-evenly;
     margin-left: -5%;
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 @media (width:768px){
@@ -464,4 +473,51 @@ hr{
   margin-bottom: 5%;
   position: absolute;
   left: 90%;
+  top: 275%;
+}
+.top2{
+  position: absolute;
+  font-size: 18px;
+  left: 89%;
+  top: 280%;
+}
+@media(width:280px){
+  .contact{
+      height: 255px;
+  }
+  .contact p{
+    font-size: 14px;
+  }
+  .icons button{
+    font-size: 20px;
+    margin-bottom: 11%;
+    
+  }
+.top{
+  font-size: 60px;
+  margin-bottom: 5%;
+  left: 63%;
+  top: 265.5%;
+}
+.top2{
+  position: absolute;
+  left: 35%;  
+  top: 264%;
+  font-size: 10px;
+}
+}
+@media (width:411px){
+  .top{
+    font-size: 60px;
+    margin-bottom: 5%;
+    left: 80%;
+    top: 230.5%;
+  }
+  .top2{
+    position: absolute;
+    color: #FFD700;
+    left: 35%;  
+    top: 260%;
+    font-size: 20px;
+  }
 }

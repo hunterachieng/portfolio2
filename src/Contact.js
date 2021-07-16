@@ -9,12 +9,13 @@ export default function Contact(){
             <h2 >Contact</h2>
             <p>Lets get in touch through:</p>
             <div className="icons">
-            <button><i class="fab fa-github"></i></button>
-            <button><i class="fab fa-twitter"></i></button>
-            <button><i class="fab fa-linkedin"></i></button>
-            <button><i class="far fa-envelope"></i></button>
+            <button><i className="fab fa-github"></i></button>
+            <button><i className="fab fa-twitter"></i></button>
+            <button><i className="fab fa-linkedin"></i></button>
+            <button><i className="far fa-envelope"></i></button>
             <Link to ="#home" scroll={el=>el.scrollIntoView({behavior:"smooth", block: "start"})}>
-            <button className="top"><i class="fas fa-arrow-circle-up"></i></button>
+            <button className="top"><i className="fas fa-arrow-circle-up"></i></button>
+            <p className="top2">Back to Top</p>
             </Link>
            
             <Footer />
