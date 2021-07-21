@@ -6,12 +6,12 @@ export default function Navbar(){
         <div>
              <nav className="nav-bar">
         <ul className="nav-list">
-        <Link to ="#home" scroll={el=>el.scrollIntoView({behavior:"smooth", block: "start"})}> <li>Home</li></Link>
-          <Link to="#bio"scroll={el=>el.scrollIntoView({behavior:"smooth", block: "center"})}><li>Bio</li></Link>
-           <Link to="#project" scroll={el=>el.scrollIntoView({behavior:"smooth", block: "center"})}><li>Projects</li></Link>
-          <Link to= "#contact" scroll={el=>el.scrollIntoView({behavior:"smooth", block: "center"})}><li>Contact</li></Link>
+        <Link to ="#home" style={{textDecoration:"none"}} scroll={el=>el.scrollIntoView({behavior:"smooth", block: "start"})}> <li>Home</li></Link>
+          <Link to="#bio"style={{textDecoration:"none"}}scroll={el=>el.scrollIntoView({behavior:"smooth", block: "center"})}><li>Bio</li></Link>
+           <Link to="#project" style={{textDecoration:"none"}} scroll={el=>el.scrollIntoView({behavior:"smooth", block: "center"})}><li>Projects</li></Link>
+          <Link to= "#contact" style={{textDecoration:"none"}} scroll={el=>el.scrollIntoView({behavior:"smooth", block: "center"})}><li>Contact</li></Link>
         </ul>
-        </nav>
-        </div>
+        </nav>          
+          </div>
     )
 }

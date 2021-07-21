@@ -6,7 +6,8 @@ import Navbar from './Navbar';
 export default function Home(){
     return(
         <div className="home" id="home">
-            <Navbar/>                
+            <Navbar/>
+                           
 
         <div className="intro">
         <p> Synthia Hunter Achieng</p>

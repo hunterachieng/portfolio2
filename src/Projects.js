@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link }from 'react-router-dom';
 import green from './images/project1.PNG';
 import reviews from './images/project3.PNG';
 import madlibs from './images/projects.PNG';
@@ -13,9 +14,12 @@ export default function Projects(){
             <img src={madlibs} alt = "madlibs"/>           
         </div>
         <div className="names">
-        <p>E-commerce</p>
-            <p>Customer Reviews</p>
-            <p>Madlibs</p>
+        <Link to ={{pathname:"https://hunter-green-js.netlify.app"}}target="_blank"style={{textDecoration:"none"}}>
+            <p>E-commerce</p></Link>
+           <Link to={{pathname:"https://hunter-reviews-jsproject.netlify.app"}} target="_blank" style={{textDecoration:"none"}}>
+               <p>Customer Reviews</p></Link>
+            <Link to={{pathname:"https://hunter-madlibs-js.netlify.app"}} target="_blank" style={{textDecoration:"none"}}>
+                <p>Madlibs</p></Link>
         </div>
         </div>
     )
