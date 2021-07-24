@@ -5,6 +5,7 @@ import Bio from './Bio';
 import Home from './Home';
 import Projects from './Projects';
 import Contact from './Contact';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
  <Bio/>
  <Projects/>
  <Contact />
+ <ScrollToTop/>
     </div>
     </Router>
     

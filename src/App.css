@@ -244,10 +244,37 @@ hr{
     font-size:16px;
     margin-left:5%;
     line-height:120%;
-  }
-  
+  } 
   
 }
+@media (width:1024px){
+  .skills{
+  left: 60%;
+  top: 51.25%; 
+  }
+  .skill{
+    padding-left: 0px;
+    font-size: 18px;
+    
+   }
+   .skills li{
+    font-size: 16px;
+  }
+  .bio p{
+    font-size:16px;
+    margin-left:5%;
+    line-height:130%;
+  }
+ .code{
+  height: 200px;
+  width: 30%;
+  position: absolute;
+  left: 68%;
+  top: 63%;
+  } 
+  
+}
+
 @media (min-width:330px)and (max-width:400px){
   
   .code{
@@ -265,6 +292,15 @@ hr{
     position: absolute;
     left: 64%;
     top: 139%;
+  }
+}
+@media (width:411px) and (height:823px){
+  .code{
+    height: 200px;
+    width: 34%;
+    position: absolute;
+    left: 64%;
+    top: 125%;
   }
 }
 @media (max-width:310px){
@@ -308,7 +344,7 @@ hr{
     width: 35%;
     position: absolute;
     left: 63%;
-    top: 129%;
+    top: 150%;
   }
   .bio button{
     font-size:16px;
@@ -382,7 +418,7 @@ hr{
   .Project{
     margin-top: 48%;
     background-color: black;
-    height: 600px;
+    height: 400px;
   }
   .Project h2{
     text-align:center;
@@ -429,7 +465,8 @@ hr{
   .Project{
     margin-top: 22%;
     background-color: black;
-    height: 600px;
+    height: 450px;
+    
   }
   .Project h2{
     text-align:center;
@@ -445,7 +482,7 @@ hr{
     display: flex;
     justify-content: space-evenly;
     margin-left: -5%;
-    font-size: 12px;
+    font-size: 16px;
   }
   .code{
     height: 185px;
@@ -472,6 +509,7 @@ hr{
 .divider{
   width: 99.5%;
   color: #FFD700;
+  background-color: #FFD700;
   height: 0px;
 }
 .icons button{
@@ -492,35 +530,27 @@ hr{
   background-color: transparent;
   border: transparent;
   font-size: 60px;
-  margin-bottom: 5%;
-  position: absolute;
-  left: 90%;
-  top: 275%;
-  animation: glowing 1000ms infinite;
-  
-}
-@keyframes glowing{
-  0%{
-    color:#FFD700 ;
-  }
-  50%{
-    color:#e9dfa5; ;
-  }
-  100%{
-    color: rgb(238, 209, 43);
-  }
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  animation: fadeIn 700ms ease-in-out 1s both;
+  cursor: pointer;
 
+   }
+  @keyframes fadeIn{
+  from{
+   
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+ 
 }
-.top2{
-  position: absolute;
-  font-size: 18px;
-  left: 89%;
-  top: 280%;
-  animation: glowing 1000ms infinite;
-}
+
 @media(width:280px){
   .contact{
-      height: 255px;
+      height: 200px;
   }
   .contact p{
     font-size: 14px;
@@ -531,30 +561,124 @@ hr{
     
   }
 .top{
-  font-size: 60px;
-  margin-bottom: 5%;
-  left: 63%;
-  top: 265.5%;
-}
-.top2{
-  position: absolute;
-  left: 35%;  
-  top: 264%;
-  font-size: 10px;
+  font-size: 25px;
+  bottom: 1.2rem; 
 }
 }
 @media (width:411px){
-  .top{
-    font-size: 60px;
-    margin-bottom: 5%;
-    left: 80%;
-    top: 230.5%;
-  }
-  .top2{
-    position: absolute;
-    color: #FFD700;
-    left: 35%;  
-    top: 260%;
-    font-size: 20px;
-  }
+  .contact{
+    height: 205px;
 }
+ .top{
+  font-size: 30px;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  }
+  }
+@media (width:360px){
+  .contact{
+  height: 200px;
+  }
+  .top{
+  font-size: 30px;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  }
+  }
+@media (width:320px){
+  .contact{
+  height: 205px;
+  }
+ .top{
+  font-size: 30px;
+  bottom: 1.5rem;
+  right: 0.5rem;
+  }
+  }
+ @media (width:375px){
+   .contact{
+     height: 245px;
+      }
+    .top{
+   font-size: 30px;
+  bottom: 1.5rem;
+   right: 0.5rem;
+      }
+        }
+@media (width:375px) and (height:812px){
+  .contact{
+  height: 235px;
+  }
+  .top{
+  font-size: 30px;
+  bottom: 3.5rem;
+  right: 0.5rem;
+  }
+  .code{
+  height: 200px;
+  width: 34%;
+  position: absolute;
+  left: 64%;
+ top: 129%;
+ }
+ }
+        
+@media (width:414px){
+.contact{
+height: 205px;
+}
+.top{
+font-size: 30px;
+bottom: 1.2rem;
+right: 0.5rem;
+}
+.code{
+height: 200px;
+width: 34%;
+position: absolute;
+left: 64%;
+top: 139%;
+}
+}
+@media(width:768px){
+  .contact{
+    height: 305px;
+    }
+    .top{
+    font-size: 30px;
+    bottom: 1.2rem;
+    right: 0.5rem;
+    }
+}
+@media (width:1024px){
+  .names{
+    font-size: 18px;
+  }
+  .contact p{
+    font-size: 18px;
+  }
+  .top{
+    font-size: 40px;
+    bottom: 1.2rem;
+    right: 0.5rem;
+    }
+}
+@media(width:540px){
+  .contact{
+    height: 210px;
+    }
+  .top{
+    font-size: 40px;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    }
+    .code{
+      height: 200px;
+      width: 34%;
+      position: absolute;
+      left: 64%;
+      top: 135%;
+      }
+}
+        
+        

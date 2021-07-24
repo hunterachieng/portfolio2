@@ -2,6 +2,7 @@ import React from 'react';
 //components
 // import SideNav from './SideNav';
 import Navbar from './Navbar';
+// import SplitText from './SplitText';
 
 export default function Home(){
     return(
