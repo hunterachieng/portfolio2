@@ -640,6 +640,15 @@ left: 64%;
 top: 139%;
 }
 }
+@media (width:1080px){
+  .code{
+    height: 200px;
+    width: 34%;
+    position: absolute;
+    left: 62%;
+    top: 140%;
+    }
+}
 @media(width:768px){
   .contact{
     height: 305px;
