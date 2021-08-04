@@ -1,5 +1,6 @@
 import React from 'react';
 import woman from './images/vector.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Bio(){
     return(
@@ -27,7 +28,7 @@ languages and searching for more ‘How Its Made’ shows.</p>
 </ul>
 </div>
 <img src={woman} alt="illustration" className="code"/>
-<button>Download Resume</button>
+<Link to="/files/resume.pdf" target="_blank" style={{textDecoration:"none"}} download><button>Download Resume</button></Link>
 
         </div>
     )
